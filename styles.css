@@ -305,3 +305,96 @@ footer {
     }
 
 }
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+    .logo {
+        text-indent: -80px;
+    }
+    .navbuttons {
+        margin-left: 40px;
+    }
+    
+    
+    .me {
+        height: 180px; width: 180px;
+        margin-left: 80px;
+        margin-top: 80px;
+    }
+    
+    
+    .desc {
+        font-size: 46px;
+        margin-left: 80px;
+    }
+    
+    
+    .projectb {
+        width: 220px; height: 66px;
+        border-radius: 33px;
+        font-size: 28px;
+        margin-left: 100px;
+    }
+    
+    
+    .stack1 {
+        height: 30px; width: 680px;
+        margin-top: 150px;
+    }
+
+    .stack2 {
+        width: 680px;
+    }
+    .stack2 p {
+        font-size: 19px;
+    }
+    
+    
+    h2 {
+        margin-left: 100px;
+        margin-top: 200px;
+    }
+    .about {
+        margin: 30px 60px;
+    }
+    
+    
+    #h2p {
+        margin-top: 160px;
+        margin-bottom: 60px;
+    }
+    .projects1 , .projects2{
+        height: 180px; width: 80%;
+    }
+    .projects1 button, .projects2 button {
+        height: 120px; width: 200px;
+    }
+    
+    
+    #h2c {
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    /* im here */ 
+
+    .contacts {
+        display: inline;
+        margin: 40px auto;
+        height: 220px;
+        width: 82%;
+        background-color: transparent;
+    }
+    .contacts button {
+        width: 180px; height: 60px;
+        border-radius: 20px;
+        border: none;
+        font-family: 'OutfitEB';
+        font-size: 24px;
+    }
+    
+    
+    footer {
+        width: 100%; height: 100px;
+        margin-top: -40px;
+    }
+}
